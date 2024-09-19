@@ -1,0 +1,82 @@
+@font-face {
+  font-family: Be Vietnam Pro;
+  src: url('/assets/fonts/BeVietnamPro-Regular.woff2') format('woff2'),
+        url('/assets/fonts/BeVietnamPro-Regular.woff') format('woff');
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Be Vietnam Pro;
+  src: url('/assets/fonts/BeVietnamPro-Medium.woff2') format('woff2'),
+       url('/assets/fonts/BeVietnamPro-Medium.woff') format('woff');
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Be Vietnam Pro;
+  src: url('/assets/fonts/BeVietnamPro-Bold.woff2') format('woff2'),
+       url('/assets/fonts/BeVietnamPro-Bold.woff') format('woff');
+  font-weight: bold;
+  font-display: swap;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+i {
+  @apply text-white text-2xl hover:text-brightRed cursor-pointer
+}
+
+h3 {
+  @apply bg-veryPaleRed text-darkBlue py-[0.4rem] font-bold overflow-hidden rounded-l-full rounded-r-full;
+}
+
+.btn {
+  @apply  bg-brightRed text-varyLightGray rounded-full px-8 py-3 hover:bg-buttonHover;
+}
+
+input {
+  @apply rounded-full px-5 w-[100%] text-[.87em] md:text-[1rem] md:px-6 outline-none ;
+}
+
+p {
+  @apply text-darkGrayishBlue;
+}
+
+.swiper-slide {
+  width: 80%;
+}
+
+.swiper-slide:nth-child(2n) {
+  width: 60%;
+}
+
+.swiper-slide:nth-child(3n) {
+  width: 40%;
+}
+
+.swiper-slide div {
+  @apply w-[20rem] bg-varyLightGray mx-auto md:w-[29rem] px-4 pb-8 pt-12 relative -z-50 
+}
+
+.swiper-slide div p {
+  @apply text-darkGrayishBlue text-center mt-4 text-[.87em] leading-7 md:text-[.92rem]
+}
+
+.swiper-pagination-bullets .swiper-pagination-bullet {
+  @apply bg-brightRed
+}
+
+.email-error {
+  @apply text-red-500 text-sm ml-4 mt-2 hidden
+}
+
+
+footer li {
+  @apply text-varyLightGray hover:text-brightRed
+}
+
