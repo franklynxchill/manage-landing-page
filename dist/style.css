@@ -899,6 +899,10 @@ video {
   padding-left: 1.5rem;
 }
 
+.pr-4 {
+  padding-right: 1rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1323,6 +1327,10 @@ footer li:hover {
 
   .md\:pl-0 {
     padding-left: 0px;
+  }
+
+  .md\:pr-0 {
+    padding-right: 0px;
   }
 
   .md\:text-left {
