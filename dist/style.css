@@ -890,6 +890,14 @@ video {
   font-size: .87rem;
 }
 
+.text-\[\.909rem\] {
+  font-size: .909rem;
+}
+
+.text-\[\.91rem\] {
+  font-size: .91rem;
+}
+
 .text-\[\.9rem\] {
   font-size: .9rem;
 }
@@ -968,8 +976,6 @@ h3 {
   overflow: hidden;
   border-top-left-radius: 9999px;
   border-bottom-left-radius: 9999px;
-  border-top-right-radius: 9999px;
-  border-bottom-right-radius: 9999px;
   --tw-bg-opacity: 1;
   background-color: hsl(13 100% 96% / var(--tw-bg-opacity));
   padding-top: 0.4rem;
@@ -977,6 +983,12 @@ h3 {
   font-weight: 700;
   --tw-text-opacity: 1;
   color: hsl(228 39% 23% / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  h3 {
+    background-color: transparent;
+  }
 }
 
 .btn {
@@ -1090,6 +1102,11 @@ footer li:hover {
   color: hsl(12 88% 59% / var(--tw-text-opacity));
 }
 
+.hover\:text-brightRed:hover {
+  --tw-text-opacity: 1;
+  color: hsl(12 88% 59% / var(--tw-text-opacity));
+}
+
 .hover\:text-buttonHover:hover {
   color: hsla(12, 88%, 59%, .8);
 }
@@ -1097,11 +1114,6 @@ footer li:hover {
 .hover\:text-darkGrayishBlue:hover {
   --tw-text-opacity: 1;
   color: hsl(227 12% 61% / var(--tw-text-opacity));
-}
-
-.hover\:text-brightRed:hover {
-  --tw-text-opacity: 1;
-  color: hsl(12 88% 59% / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {

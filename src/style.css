@@ -32,7 +32,7 @@ i {
 }
 
 h3 {
-  @apply bg-veryPaleRed text-darkBlue py-[0.4rem] font-bold overflow-hidden rounded-l-full rounded-r-full;
+  @apply bg-veryPaleRed md:bg-transparent text-darkBlue py-[0.4rem] font-bold overflow-hidden rounded-l-full;
 }
 
 .btn {
