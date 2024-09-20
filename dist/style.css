@@ -883,6 +883,22 @@ video {
   padding-top: 2.5rem;
 }
 
+.pl-4 {
+  padding-left: 1rem;
+}
+
+.pl-3 {
+  padding-left: 0.75rem;
+}
+
+.pl-5 {
+  padding-left: 1.25rem;
+}
+
+.pl-6 {
+  padding-left: 1.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -936,6 +952,26 @@ video {
 
 .text-\[\.98rem\] {
   font-size: .98rem;
+}
+
+.text-\[\.89rem\] {
+  font-size: .89rem;
+}
+
+.text-\[\.82rem\] {
+  font-size: .82rem;
+}
+
+.text-\[\.86rem\] {
+  font-size: .86rem;
+}
+
+.text-\[\.88rem\] {
+  font-size: .88rem;
+}
+
+.text-\[\.95rem\] {
+  font-size: .95rem;
 }
 
 .font-bold {
@@ -1283,6 +1319,10 @@ footer li:hover {
   .md\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .md\:pl-0 {
+    padding-left: 0px;
   }
 
   .md\:text-left {
