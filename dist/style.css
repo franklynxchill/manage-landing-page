@@ -861,6 +861,16 @@ video {
   padding-bottom: 2.25rem;
 }
 
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .pb-16 {
   padding-bottom: 4rem;
 }
@@ -913,6 +923,19 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-\[\.96rem\] {
+  font-size: .96rem;
+}
+
+.text-\[\.98rem\] {
+  font-size: .98rem;
 }
 
 .font-bold {
@@ -1100,6 +1123,40 @@ footer li {
 footer li:hover {
   --tw-text-opacity: 1;
   color: hsl(12 88% 59% / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .md\:container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  @media (min-width: 450px) {
+    .md\:container {
+      max-width: 450px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .md\:container {
+      max-width: 768px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .md\:container {
+      max-width: 992px;
+    }
+  }
+
+  @media (min-width: 1124px) {
+    .md\:container {
+      max-width: 1124px;
+    }
+  }
 }
 
 .hover\:text-brightRed:hover {
